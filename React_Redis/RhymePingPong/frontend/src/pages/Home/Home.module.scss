@@ -1,0 +1,22 @@
+.column{
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.toolBar{
+    background-color: #000000;
+}
+
+.centerColumn{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.rightColumn{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
