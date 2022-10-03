@@ -8,7 +8,7 @@ Feel free to contribute to this repository with any exciting projects you have b
 2. Clone your fork to your machine.
 3. Create a branch for yourself.
 4. If a folder for the language/technology used in your app **does not already exist**, create a folder giving the name of the technology/combination of technologies used (e.g. MERN). Else, skip this step and move to step 5.
-5. Create a sub-folder with your project name, and add your project to it.
+5. Under the folder for the language/technology used in your app, create a sub-folder with your project name, and add your project to it.
 6. Commit and push your changes.
 7. Create a pull request to the main branch of this repository.
 
