@@ -12,4 +12,14 @@ Feel free to contribute to this repository with any exciting projects you have b
 6. Commit and push your changes.
 7. Create a pull request to the main branch of this repository.
 
+### NOTE ⭐
+It would be really helpful if a README.md file could be added to the **root of your project folder** describing the following:
+- What your project is about.
+- Prerequisites needed to run the project locally.
+- How the project can be run locally.
+
+Thanks!
+
+---
+
 I will be periodically merging new pull requests that fall under this criteria, so thank you for your patience and for your interest in contributing to this repository! ✨
