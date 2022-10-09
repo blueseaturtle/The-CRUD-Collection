@@ -1,0 +1,25 @@
+$primaryFont: 'PT Sans', sans-serif;;
+
+$primary: #008080;
+$secondary:#FCD752;
+
+$accent: #FCA3B9;
+$offwhite: #F6F4F9;
+$red: #e90c10;
+$gray: #6b6b6b;
+$black: #000000;
+$green: #4CAF50;
+
+// Screen sizes
+$xxl: 1440px;
+$xl: 1280px;
+$l: 1024px;
+$m: 768px;
+$s:540px;
+
+@mixin transition($val){
+  transition: $val;
+  -moz-transition: $val;
+  -o-transition: $val;
+  -webkit-transition: $val;
+}
