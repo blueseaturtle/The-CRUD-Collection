@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import "./constants.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primaryFont !important;
+}
+
+.title-font {
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.f-48 {
+  font-size: 48px;
+}
+.f-32 {
+  font-size: 32px;
+}
+.f-24 {
+  font-size: 24px;
+}
+.f-20 {
+  font-size: 20px;
+}
+.f-16 {
+  font-size: 16px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.f-12 {
+  font-size: 12px;
+}
+
+.cursorPointer {
+  cursor: pointer !important;
+}
+
+.cursorDisabled {
+  cursor: not-allowed !important;
+}
+
+.statusChip {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 4px;
+
+  &.enabled {
+    border: 1px solid rgba(0, 255, 0, 0.5);
+    background: rgba(0, 255, 0, 0.3);
+  }
+
+  &.disabled {
+    border: 1px solid #f8564a;
+    background: #ffb4ae;
+  }
+
+}
+
